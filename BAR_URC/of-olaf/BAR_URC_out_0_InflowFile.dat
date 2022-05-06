@@ -14,11 +14,11 @@ False                  Echo        - Echo input data to <RootName>.ech (flag)
 0.0                    RefHt       - Reference height for horizontal wind speed      (m)
 0.2                    PLexp       - Power law exponent                              (-)
 ================== Parameters for Uniform wind file   [used only for WindType = 2] ============================
-"/Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_URC/of-olaf/wind/BAR_URC_out_NTM_U8.000000_Seed1501552846.0.bts" Filename_Uni - Filename of time series data for uniform wind field.      (-)
+"/Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_URC/wind/BAR_URC_out_NTM_U8.000000_Seed1501552846.0.bts" Filename_Uni - Filename of time series data for uniform wind field.      (-)
 0.0                    RefHt_Uni   - Reference height for horizontal wind speed                (m)
 205.99978258290298     RefLength   - Reference length for linear horizontal and vertical sheer (-)
 ================== Parameters for Binary TurbSim Full-Field files   [used only for WindType = 3] ==============
-"/Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_URC/of-olaf/wind/BAR_URC_out_NTM_U8.000000_Seed1501552846.0.bts" FileName_BTS - Name of the Full field wind file to use (.bts)
+"/Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_URC/wind/BAR_URC_out_NTM_U8.000000_Seed1501552846.0.bts" FileName_BTS - Name of the Full field wind file to use (.bts)
 ================== Parameters for Binary Bladed-style Full-Field files   [used only for WindType = 4] =========
 "none"                 FilenameRoot - Rootname of the full-field wind file to use (.wnd, .sum)
 False                  TowerFile   - Have tower file (.twr) (flag)

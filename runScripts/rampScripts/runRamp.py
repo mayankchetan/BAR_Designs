@@ -106,7 +106,7 @@ if n_cores == 1:
 else:
     fastBatch.run_multi(n_cores)
 
-fastData = FAST_IO_timeseries(os.path.join(run_dir2 + 'outputs/urc/bar-drc_0.out'))
+fastData = FAST_IO_timeseries(os.path.join(run_dir2 + 'outputs/drc/bar-drc_0.out'))
 
 pitch_init = np.interp(wind_speeds, fastData['Wind1VelX'], fastData['BldPitch1'])
 omega_init = np.interp(wind_speeds, fastData['Wind1VelX'], fastData['RtSpeed'])

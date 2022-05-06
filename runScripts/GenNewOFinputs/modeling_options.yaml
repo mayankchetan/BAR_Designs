@@ -1,8 +1,8 @@
 General:
     verbosity: False  # When set to True, the code prints to screen many infos
     openfast_configuration:
-        OF_run_fst: BAR_DRC_out
-        OF_run_dir: BAR_DRC/of-olaf
+        OF_run_fst: BAR_USC_out
+        OF_run_dir: /Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_USC
         save_timeseries: True
         save_iterations: True
         use_exe: True
@@ -23,11 +23,11 @@ WISDEM:
 Level3: # Options for WEIS fidelity level 3 = nonlinear time domain
     flag: True
     from_openfast: True
-    openfast_file: BAR_DRC.fst
-    openfast_dir: /Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_DRC/OpenFAST
+    openfast_file: BAR_USC.fst
+    openfast_dir: /Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_USC/OpenFAST
     simulation:
-        DT: 0.001
-        CompElast: 1
+        DT: 0.0001
+        CompElast: 2
         CompInflow: 1
         CompAero: 2
         CompServo: 1
@@ -57,12 +57,12 @@ Level3: # Options for WEIS fidelity level 3 = nonlinear time domain
         PtfmPDOF : False
         PtfmYDOF : False
     AeroDyn:
-        WakeMod : 3
+        WakeMod : 1
         AFAeroMod : 1
     
 ROSCO:
     flag: True
-    tuning_yaml: /Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_USC/WEIS/ROSCO_BAR_USC.yaml
+    tuning_yaml: /Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/runScripts/GenNewOFinputs/ROSCO_BAR_USC.yaml
 
 DLC_driver:
     DLCs:

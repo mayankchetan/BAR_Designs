@@ -21,9 +21,9 @@ False          Clockwise       - Clockwise rotation looking downwind? (used only
 0.05           TimeStep        - Time step [seconds]
 20.0           AnalysisTime    - Length of analysis time series [seconds] (program will add time if necessary: AnalysisTime = MAX(AnalysisTime, UsableTime+GridWidth/MeanHHWS) )
 ALL            UsableTime      - Usable length of output time series [seconds] (program will add GridWidth/MeanHHWS seconds unless UsableTime is "ALL")
-418.53153694918626   HubHt           - Hub height [m] (should be > 0.5*GridHeight)
-837.0600738983726   GridHeight      - Grid height [m]
-837.0600738983726   GridWidth       - Grid width [m] (should be >= 2*(RotorRadius+ShaftLength))
+139.51051231639542   HubHt           - Hub height [m] (should be > 0.5*GridHeight)
+279.02002463279086   GridHeight      - Grid height [m]
+279.02002463279086   GridWidth       - Grid width [m] (should be >= 2*(RotorRadius+ShaftLength))
 0.0            VFlowAng        - Vertical mean flow (uptilt) angle [degrees]
 0.0            HFlowAng        - Horizontal mean flow (skew) angle [degrees]
 
