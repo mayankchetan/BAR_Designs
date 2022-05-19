@@ -23,8 +23,8 @@ WISDEM:
 Level3: # Options for WEIS fidelity level 3 = nonlinear time domain
     flag: True
     from_openfast: True
-    openfast_file: BAR_USC.fst
-    openfast_dir: /Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/BAR_USC/OpenFAST
+    openfast_file: BAR_DRC.fst
+    openfast_dir: /home/mchetan/tools/weis/olaf-4may22/bar_designs/BAR_DRC/OpenFAST
     simulation:
         DT: 0.0001
         CompElast: 2
@@ -62,7 +62,7 @@ Level3: # Options for WEIS fidelity level 3 = nonlinear time domain
     
 ROSCO:
     flag: True
-    tuning_yaml: /Users/mchetan/Desktop/nrel/tools/otherScripts/bar-olaf-03may/bar-designs-mc-4may/runScripts/GenNewOFinputs/ROSCO_BAR_USC.yaml
+    tuning_yaml: /home/mchetan/tools/weis/olaf-4may22/bar_designs/runScripts/GenNewOFinputs/ROSCO_BAR_USC.yaml
 
 DLC_driver:
     DLCs:

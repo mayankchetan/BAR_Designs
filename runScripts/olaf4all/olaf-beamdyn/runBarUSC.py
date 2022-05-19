@@ -17,8 +17,8 @@ import os, platform
 fastBatch = runFAST_pywrapper_batch()
 run_dir1                    = os.path.join(os.path.dirname(weis.__file__) + os.sep + '..' + os.sep)
 run_dir2                    = os.path.dirname( os.path.realpath(__file__) ) + os.sep
-save_dir                    = '/scratch/mchetan/ad15steady-bd-2/'
-fastBatch.FAST_directory    = os.path.join(run_dir2,'../../BAR_USC/' ,'of-olaf') # Path to fst directory files
+save_dir                    = '/projects/bar/mchetan/projects/downwind/olaf-bd'
+fastBatch.FAST_directory    = os.path.join(run_dir2,'../../../BAR_USC/' ,'of-olaf') # Path to fst directory files
 fastBatch.FAST_InputFile    = 'BAR_USC_out_0.fst'   # FAST input file (ext=.fst)
 fastBatch.FAST_runDirectory = os.path.join(save_dir + 'outputs' + os.sep + 'usc')
 fastBatch.debug_level       = 2
@@ -45,6 +45,8 @@ omega_ref   = [3.441, 3.847, 4.746, 5.699, 6.649, 7.505, 7.57 , 7.604, 7.576,
 pitch_init = np.interp(wind_speeds, u_ref, pitch_ref)
 omega_init = np.interp(wind_speeds, u_ref, omega_ref)
 
+adTimeSteps =  5 * 60 / 360 / omega_ref # Time for 5 degree rotation
+
 # Settings passed to OpenFAST
 case_inputs = {}
 case_inputs[("Fst","TMax")]             = {'vals':[TMax], 'group':0}
@@ -65,6 +67,9 @@ case_inputs[("ServoDyn","PCMode")]      = {'vals':[5], 'group':0}
 case_inputs[("ServoDyn","VSContrl")]    = {'vals':[5], 'group':0}
 case_inputs[("AeroDyn15","WakeMod")]    = {'vals':[1], 'group':0}
 case_inputs[("AeroDyn15","AFAeroMod")]    = {'vals':[1], 'group':0}
+
+case_inputs[("AeroDyn15","DTAero")]    = {'vals': adTimeSteps, 'group':1}
+
 case_inputs[("InflowWind","WindType")]  = {'vals':[1], 'group':0}
 case_inputs[("InflowWind","HWindSpeed")]= {'vals': wind_speeds, 'group': 1}
 case_inputs[("InflowWind","RefHt")]       = {'vals':[140], 'group':0}

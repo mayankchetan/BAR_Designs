@@ -36,14 +36,16 @@ TStart      = max([0., TMax - runTime]) # Start of the recording of the channels
 
 # Initial conditions for ElastoDyn
 u_ref       = np.arange(3.,26.) # Wind speed vector to specify the initial conditions
-pitch_ref   = [ 0.   ,  0.   ,  0.   ,  0.   ,  0.   ,  1.317,  3.109,  4.443,
+pitch_ref   = np.array([ 0.   ,  0.   ,  0.   ,  0.   ,  0.   ,  1.317,  3.109,  4.443,
         9.287, 10.05 , 10.64 , 12.16 , 14.39 , 16.08 , 17.08 , 18.31 ,
-       19.52 , 20.67 , 21.78 , 22.9  , 24.   , 25.07 , 26.15 ] # Pitch values in deg
-omega_ref   = [3.441, 3.847, 4.746, 5.699, 6.649, 7.505, 7.57 , 7.604, 7.576,
+       19.52 , 20.67 , 21.78 , 22.9  , 24.   , 25.07 , 26.15 ]) # Pitch values in deg
+omega_ref   = np.array([3.441, 3.847, 4.746, 5.699, 6.649, 7.505, 7.57 , 7.604, 7.576,
        7.494, 7.557, 7.554, 7.497, 7.564, 7.57 , 7.579, 7.582, 7.563,
-       7.584, 7.586, 7.561, 7.585, 7.593] # Rotor speeds in rpm
+       7.584, 7.586, 7.561, 7.585, 7.593]) # Rotor speeds in rpm
 pitch_init = np.interp(wind_speeds, u_ref, pitch_ref)
 omega_init = np.interp(wind_speeds, u_ref, omega_ref)
+
+adTimeSteps =  5 * 60 / 360 / omega_ref # Time for 5 degree rotation
 
 # Settings passed to OpenFAST
 case_inputs = {}
@@ -65,6 +67,9 @@ case_inputs[("ServoDyn","PCMode")]      = {'vals':[5], 'group':0}
 case_inputs[("ServoDyn","VSContrl")]    = {'vals':[5], 'group':0}
 case_inputs[("AeroDyn15","WakeMod")]    = {'vals':[1], 'group':0}
 case_inputs[("AeroDyn15","AFAeroMod")]    = {'vals':[1], 'group':0}
+
+case_inputs[("AeroDyn15","DTAero")]    = {'vals': adTimeSteps, 'group':1}
+
 case_inputs[("InflowWind","WindType")]  = {'vals':[1], 'group':0}
 case_inputs[("InflowWind","HWindSpeed")]= {'vals': wind_speeds, 'group': 1}
 case_inputs[("InflowWind","RefHt")]       = {'vals':[140], 'group':0}
@@ -74,17 +79,18 @@ case_inputs[("ElastoDyn","RotSpeed")]   = {'vals': omega_init, 'group': 1}
 case_inputs[("ElastoDyn","BlPitch1")]   = {'vals': pitch_init, 'group': 1}
 case_inputs[("ElastoDyn","BlPitch2")]   = case_inputs[("ElastoDyn","BlPitch1")]
 case_inputs[("ElastoDyn","BlPitch3")]   = case_inputs[("ElastoDyn","BlPitch1")]
-dt_wanted, tMax, nNWPanel, nFWPanel, nFWPanelFree = OLAFParams(omega_init)
+dt_wanted, tMax, nNWPanel, nFWPanel, nFWPanelFree = OLAFParams(omega_init, show=True)
 dt_olaf = np.zeros_like(dt_wanted)
-dt = case_inputs[("Fst","DT")]["vals"]
+dt = case_inputs[("AeroDyn15","DTAero")] ["vals"]
 n_dt = dt_wanted / dt
 dt_olaf = dt * np.around(n_dt)
-case_inputs[("AeroDyn15","OLAF","DTfvw")] = {'vals':dt_olaf, 'group':1} 
-# case_inputs[("AeroDyn15","OLAF","nNWPanel")] = {'vals':nNWPanel, 'group':1} 
-# case_inputs[("AeroDyn15","OLAF","WakeLength")] = {'vals':nFWPanel, 'group':1} 
-# case_inputs[("AeroDyn15","OLAF","FreeWakeLength")] = {'vals':nFWPanelFree, 'group':1} 
 
-# Find the controller
+case_inputs[("AeroDyn15","OLAF","DTfvw")] = {'vals':dt_olaf, 'group':1} 
+case_inputs[("AeroDyn15","OLAF","nNWPanel")] = {'vals':[nNWPanel], 'group':0} 
+case_inputs[("AeroDyn15","OLAF","WakeLength")] = {'vals':[nFWPanel], 'group':0} 
+case_inputs[("AeroDyn15","OLAF","FreeWakeLength")] = {'vals':[nFWPanelFree], 'group':0} 
+
+# Find the controller 
 if platform.system() == 'Windows':
     path2dll = os.path.join(run_dir1, 'local','lib','libdiscon.dll')
 elif platform.system() == 'Darwin':
@@ -99,13 +105,13 @@ case_list, case_name_list = CaseGen_General(case_inputs, dir_matrix=fastBatch.FA
 
 fastBatch.case_list = case_list
 fastBatch.case_name_list = case_name_list
-
-# Run OpenFAST, either serially or sequentially
-if MPI:
-    summary_stats, extreme_table, DELs, Damage, ct = fastBatch.run_mpi()
-elif n_cores == 1 and not MPI:
-    summary_stats, extreme_table, DELs, Damage, ct = fastBatch.run_serial()
-elif not MPI:
-    summary_stats, extreme_table, DELs, Damage, ct = fastBatch.run_multi(n_cores)
-else:
-    raise ValueError('Not running known configs.')
+print(fastBatch.mpi_comm_map_down)
+# # Run OpenFAST, either serially or sequentially
+# if MPI:
+#     summary_stats, extreme_table, DELs, Damage, ct = fastBatch.run_mpi()
+# elif n_cores == 1 and not MPI:
+#     summary_stats, extreme_table, DELs, Damage, ct = fastBatch.run_serial()
+# elif not MPI:
+#     summary_stats, extreme_table, DELs, Damage, ct = fastBatch.run_multi(n_cores)
+# else:
+#     raise ValueError('Not running known configs.')
