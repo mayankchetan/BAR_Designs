@@ -63,7 +63,7 @@ adTimeSteps =  5 * 60 / 360 / np.array(omega_init) # Time for 5 degree rotation
 # Settings passed to OpenFAST
 case_inputs = {}
 case_inputs[("Fst","TMax")]             = {'vals':[TMax], 'group':0}
-case_inputs[("Fst","DT")]               = {'vals':[0.0002], 'group':0}
+case_inputs[("Fst","DT")]               = {'vals':[0.01], 'group':0}
 case_inputs[("Fst","DT_Out")]           = {'vals':[0.1], 'group':0}
 case_inputs[("ServoDyn","DLL_DT")]      = {'vals':[0.01], 'group':0}
 case_inputs[("Fst","CompInflow")]       = {'vals':[1], 'group':0}
