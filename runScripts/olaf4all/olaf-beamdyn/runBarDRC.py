@@ -37,7 +37,7 @@ fastBatch.FAST_runDirectory = os.path.join(save_dir + 'outputs' + os.sep + 'drc'
 fastBatch.debug_level       = 2
 
 # User settings
-n_cores     = 36     # Number of available cores
+n_cores     = 5     # Number of available cores
 TMax        = 720.    # Length of wind grids and OpenFAST simulations, suggested 720 s
 runTime     = 600.    # Suggested at 600. s
 cut_in      = 3.    # Cut in wind speed

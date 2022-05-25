@@ -27,9 +27,9 @@ run_dir1                    = os.path.join(os.path.dirname(weis.__file__) + os.s
 run_dir2                    = os.path.dirname( os.path.realpath(__file__) ) + os.sep
 
 if eagleFlag:
-    save_dir                = '/projects/bar/mchetan/projects/downwind/olaf-bd'
+    save_dir                = '/projects/bar/mchetan/projects/downwind/ad15-bd'
 else:
-    save_dir                = './outputs/olaf-ed-test'
+    save_dir                = './outputs/ad15-bd'
 
 fastBatch.FAST_directory    = os.path.join(run_dir2,'../../../BAR_DRC/' ,'of-olaf') # Path to fst directory files
 fastBatch.FAST_InputFile    = 'BAR_DRC_out_0.fst'   # FAST input file (ext=.fst)
@@ -82,10 +82,10 @@ case_inputs[("ServoDyn","PCMode")]      = {'vals':[5], 'group':0}
 case_inputs[("ServoDyn","VSContrl")]    = {'vals':[5], 'group':0}
 
 # Below for OLAF
-case_inputs[("AeroDyn15","WakeMod")]    = {'vals':[3], 'group':0}
+case_inputs[("AeroDyn15","WakeMod")]    = {'vals':[1], 'group':0}
 case_inputs[("AeroDyn15","AFAeroMod")]    = {'vals':[1], 'group':0}
 
-case_inputs[("AeroDyn15","DTAero")]    = {'vals': adTimeSteps, 'group':1}
+# case_inputs[("AeroDyn15","DTAero")]    = {'vals': adTimeSteps, 'group':1}
 
 case_inputs[("InflowWind","WindType")]  = {'vals':[1], 'group':0}
 case_inputs[("InflowWind","HWindSpeed")]= {'vals': wind_speeds, 'group': 1}

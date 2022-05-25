@@ -27,9 +27,9 @@ run_dir1                    = os.path.join(os.path.dirname(weis.__file__) + os.s
 run_dir2                    = os.path.dirname( os.path.realpath(__file__) ) + os.sep
 
 if eagleFlag:
-    save_dir                = '/projects/bar/mchetan/projects/downwind/olaf-bd'
+    save_dir                = '/projects/bar/mchetan/projects/downwind/olaf-ed'
 else:
-    save_dir                = './outputs/olaf-ed-test'
+    save_dir                = './outputs/olaf-ed'
 
 fastBatch.FAST_directory    = os.path.join(run_dir2,'../../../BAR_URC/' ,'of-olaf') # Path to fst directory files
 fastBatch.FAST_InputFile    = 'BAR_URC_out_0.fst'   # FAST input file (ext=.fst)
@@ -37,7 +37,7 @@ fastBatch.FAST_runDirectory = os.path.join(save_dir + 'outputs' + os.sep + 'urc'
 fastBatch.debug_level       = 2
 
 # User settings
-n_cores     = 36     # Number of available cores
+n_cores     = 5     # Number of available cores
 TMax        = 720.    # Length of wind grids and OpenFAST simulations, suggested 720 s
 runTime     = 600.    # Suggested at 600. s
 cut_in      = 3.    # Cut in wind speed
@@ -72,7 +72,7 @@ case_inputs[("Fst","SttsTime")]       = {'vals':[1], 'group':0}
 case_inputs[("Fst","TStart")]       = {'vals':[0], 'group':0}
 
 # Below for BeamDyn
-case_inputs[("Fst","CompElast")]       = {'vals':[2], 'group':0}
+case_inputs[("Fst","CompElast")]       = {'vals':[1], 'group':0}
 
 case_inputs[("Fst","CompServo")]        = {'vals':[1], 'group':0}
 case_inputs[("Fst","OutFileFmt")]       = {'vals':[1], 'group':0}

@@ -1,12 +1,12 @@
 #!/bin/bash
 #SBATCH --account=bar
 #SBATCH --time=2-00:00:00
-#SBATCH --job-name=drc_ad15_bd_bar
+#SBATCH --job-name=drc_ad15_ed
 #SBATCH --nodes=1             # This should be nC/36 (36 cores on eagle)
 #SBATCH --ntasks-per-node=36
 #SBATCH --mail-user mchetan@nrel.gov
 #SBATCH --mail-type BEGIN,END,FAIL
-#SBATCH --output=logs/%j.drc_ad15_bd_bar.log
+#SBATCH --output=logs/%j.drc_ad15_ed.log
 #### ####SBATCH --partition=debug
 
 
