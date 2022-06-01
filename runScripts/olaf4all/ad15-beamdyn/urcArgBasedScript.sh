@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --account=bar
-#SBATCH --time=2-00:00:00
-#SBATCH --job-name=usc_olaf_bd
+#SBATCH --time=1-00:00:00
+#SBATCH --job-name=urc_arg_ad15
 #SBATCH --nodes=1             # This should be nC/36 (36 cores on eagle)
 #SBATCH --ntasks-per-node=36
 #SBATCH --mail-user mchetan@nrel.gov
 #SBATCH --mail-type BEGIN,END,FAIL
-#SBATCH --output=logs/%j.usc_olaf_bd.log
-##### ###SBATCH --partition=debug
+#SBATCH --output=logs/%j.urc_args.log
+#### ####SBATCH --partition=debug
 
 
 nDV=2 # Number of design variables (x2 for central difference)
@@ -24,5 +24,10 @@ module list
 source activate /home/mchetan/.conda-envs/weis-env-olaf-04may22
 which python
 
-python runBarUSC.py
-# python weis_driverumaine_semi.py
+echo " "
+echo "******* RUNNING URC ********"
+echo "Start WS = $1; End WS = $2; Cores = $3"
+echo "***************"
+echo " "
+
+python runBarURC_args.py --startW $1 --endW $2 --numCores $3
