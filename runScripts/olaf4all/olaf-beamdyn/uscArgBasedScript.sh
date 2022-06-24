@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --account=amer
-#SBATCH --time=1-00:00:00
+#SBATCH --time=1-12:00:00
 #SBATCH --job-name=usc_arg_olaf_bd
 #SBATCH --nodes=1             # This should be nC/36 (36 cores on eagle)
 #SBATCH --ntasks-per-node=36
@@ -33,5 +33,5 @@ echo "Start Time: $currentTime"
 echo "***************"
 echo " "
 
-#### python runBarUSC_args.py --startW $1 --endW $2 --numCores $3
+python runBarUSC_args.py --startW $1 --endW $2 --numCores $3
 

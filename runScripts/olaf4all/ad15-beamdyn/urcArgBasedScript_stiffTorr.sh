@@ -6,7 +6,7 @@
 #SBATCH --ntasks-per-node=36
 #SBATCH --mail-user mchetan@nrel.gov
 #SBATCH --mail-type BEGIN,END,FAIL
-#SBATCH --output=logs/%j.urc_args.log
+#SBATCH --output=logs/%j.%n.urc_args.log
 #### ####SBATCH --partition=debug
 
 
