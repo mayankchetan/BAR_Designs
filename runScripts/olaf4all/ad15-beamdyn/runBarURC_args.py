@@ -46,19 +46,19 @@ run_dir1                    = os.path.join(os.path.dirname(weis.__file__) + os.s
 run_dir2                    = os.path.dirname( os.path.realpath(__file__) ) + os.sep
 
 if eagleFlag:
-    save_dir                = '/projects/bar/mchetan/projects/downwind/ad15-bd/'
+    save_dir                = '/projects/bar/mchetan/speedTest/outputs/'
 else:
     save_dir                = './outputs/ad15-bd/'
 
 fastBatch.FAST_directory    = os.path.join(run_dir2,'../../../BAR_URC/' ,'of-olaf') # Path to fst directory files
 fastBatch.FAST_InputFile    = 'BAR_URC_out_0.fst'   # FAST input file (ext=.fst)
-fastBatch.FAST_runDirectory = os.path.join(save_dir + 'outputs' + os.sep + 'urc')
+fastBatch.FAST_runDirectory = os.path.join(save_dir + 'weisExeRel' + os.sep + 'urc')
 fastBatch.debug_level       = 2
 
 # User settings
 n_cores     = n_cores     # Number of available cores
-TMax        = 720.    # Length of wind grids and OpenFAST simulations, suggested 720 s
-runTime     = 600.    # Suggested at 600. s
+TMax        = 50.    # Length of wind grids and OpenFAST simulations, suggested 720 s
+runTime     = 45.    # Suggested at 600. s
 cut_in      = startWS    # Cut in wind speed
 cut_out     = endWS   # Cut out wind speed
 n_ws        = cut_out - cut_in + 1    # Number of wind speed bins
@@ -139,6 +139,7 @@ case_list, case_name_list = CaseGen_General(case_inputs, dir_matrix=fastBatch.FA
 
 fastBatch.case_list = case_list
 fastBatch.case_name_list = case_name_list
+fastBatch.use_exe = False # set for OF lib
 
 # Run OpenFAST, either serially or sequentially
 if MPI:

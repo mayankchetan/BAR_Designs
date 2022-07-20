@@ -1,0 +1,2446 @@
+
+Currently Loaded Modules:
+  1) conda/4.9.2    3) comp-intel/2020.1.217   5) mkl/2020.1.217
+  2) cmake/3.18.2   4) intel-mpi/2020.1.217
+
+ 
+
+/projects/bar/mchetan/speedTest/weisRelDeb/bin/python
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6180      761531        5518        5682      760001
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6248      761304        5518        5841      759879
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6332      761035        5526        6025      759786
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6400      760891        5526        6102      759717
+Swap:             0           0           0
+Using weis.aeroelasticse in ROSCO_toolbox...
+
+
+
+
+
+
+
+
+
+
+
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ OpenFAST
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ OpenFAST
+ OpenFAST
+ OpenFAST
+ OpenFAST
+ OpenFAST
+ OpenFAST
+ OpenFAST
+
+ OpenFAST
+ OpenFAST
+ OpenFAST
+
+
+
+
+
+
+
+ Copyright (C) 2022 National Renewable Energy Laboratory
+
+
+
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 National Renewable Energy Laboratory
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 Envision Energy USA LTD
+
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 Envision Energy USA LTD
+ Copyright (C) 2022 Envision Energy USA LTD
+
+
+
+
+
+
+
+
+
+
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ This program is licensed under Apache License Version 2.0 and comes with ABSOLUTELY NO WARRANTY.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ See the "LICENSE" file distributed with this software for details.
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+ **************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ Compile Info:
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ OpenFAST-v1.0-49-gfefe8783
+ Compile Info:
+ Compile Info:
+ Compile Info:
+ Compile Info:
+ Compile Info:
+ Compile Info:
+ Compile Info:
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+ Compile Info:
+ Compile Info:
+ Compile Info:
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  Version 19.1.1.217 Build 20200306
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Precision: single
+  Version 19.1.1.217 Build 20200306
+  - Compiler: Intel(R) Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64,
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  Version 19.1.1.217 Build 20200306
+  - Precision: single
+  - Architecture: 64 bit
+  - Precision: single
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - OpenMP: Yes, number of threads: 36/36
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+ OpenFAST input file heading:
+ OpenFAST input file heading:
+ OpenFAST input file heading:
+ OpenFAST input file heading:
+ OpenFAST input file heading:
+     Generated with AeroElasticSE FAST driver
+     Generated with AeroElasticSE FAST driver
+     Generated with AeroElasticSE FAST driver
+     Generated with AeroElasticSE FAST driver
+ OpenFAST input file heading:
+
+     Generated with AeroElasticSE FAST driver
+
+
+
+     Generated with AeroElasticSE FAST driver
+
+ OpenFAST input file heading:
+ OpenFAST input file heading:
+
+ OpenFAST input file heading:
+     Generated with AeroElasticSE FAST driver
+     Generated with AeroElasticSE FAST driver
+
+     Generated with AeroElasticSE FAST driver
+
+
+ OpenFAST input file heading:
+     Generated with AeroElasticSE FAST driver
+
+  - Date: Jul 15 2022
+  - Time: 14:47:46
+ Execution Info:
+  - Date: 07/18/2022
+  - Time: 14:32:57-0600
+
+ OpenFAST input file heading:
+     Generated with AeroElasticSE FAST driver
+
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Running ElastoDyn.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Nodal outputs section of ElastoDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Running BeamDyn.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running BeamDyn.
+ Nodal outputs section of BeamDyn input file not found or improperly formatted.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ Running AeroDyn.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ AD15 Nodal Outputs: Nodal output section of AeroDyn input file not found or improperly formatted.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Skipping nodal outputs.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running InflowWind.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn.
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Running ServoDyn Interface for Bladed Controllers (using Intel Fortran for Linux, ).
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+ Using legacy Bladed DLL interface.
+
+
+
+
+
+
+
+
+
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+
+
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ FAST_InitializeAll:InitModuleMappings:BD_2_AD_BladeMotion(1):MeshMapCreate:CreateMotionMap_L2_to_L
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ 2:CreateMapping_ProjectToLine2:Found close value for node 30. (3.59693E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(1):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ ToLine2:Found close value for node 30. (3.59693E-03 m)
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(2):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ jectToLine2:Found close value for node 30. (3.59302E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(2):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ ToLine2:Found close value for node 30. (3.59302E-03 m)
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ InitModuleMappings:BD_2_AD_BladeMotion(3):MeshMapCreate:CreateMotionMap_L2_to_L2:CreateMapping_Pro
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ jectToLine2:Found close value for node 30. (3.58747E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ InitModuleMappings:AD_2_BD_BladeLoad(3):MeshMapCreate:CreateLoadMap_L2_to_L2:CreateMapping_Project
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+ ToLine2:Found close value for node 30. (3.58747E-03 m)
+
+
+
+
+
+
+
+
+
+
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+  Time: 0 of 50 seconds.
+                                                                               
+------------------------------------------------------------------------------
+Running ROSCO-v2.5.0
+A wind turbine controller framework for public use in the scientific field    
+Developed in collaboration: National Renewable Energy Laboratory              
+                            Delft University of Technology, The Netherlands   
+------------------------------------------------------------------------------
+                                                                               
+------------------------------------------------------------------------------
+Running ROSCO-v2.5.0
+A wind turbine controller framework for public use in the scientific field    
+Developed in collaboration: National Renewable Energy Laboratory              
+                            Delft University of Technology, The Netherlands   
+------------------------------------------------------------------------------
+                                                                               
+------------------------------------------------------------------------------
+Running ROSCO-v2.5.0
+A wind turbine controller framework for public use in the scientific field    
+Developed in collaboration: National Renewable Energy Laboratory              
+                            Delft University of Technology, The Netherlands   
+------------------------------------------------------------------------------
+                                                                               
+------------------------------------------------------------------------------
+Running ROSCO-v2.5.0
+A wind turbine controller framework for public use in the scientific field    
+Developed in collaboration: National Renewable Energy Laboratory              
+                            Delft University of Technology, The Netherlands   
+------------------------------------------------------------------------------
+                                                                               
+------------------------------------------------------------------------------
+Running ROSCO-v2.5.0
+A wind turbine controller framework for public use in the scientific field    
+Developed in collaboration: National Renewable Energy Laboratory              
+                            Delft University of Technology, The Netherlands   
+------------------------------------------------------------------------------
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7074      759994        5526        6325      759042
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7139      759929        5526        6326      758977
+Swap:             0           0           0
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:22.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:25.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:34.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:35.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:41.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:45.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:54.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:56.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:18:60.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:19:03.
++                                                                                                  
++ Time: 1 of 50 seconds.  Estimated final completion at 15:19:12.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7223      759844        5526        6326      758893
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7311      759756        5526        6327      758805
+Swap:             0           0           0
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:16:55.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:17:11.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:17:38.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:17:06.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:17:23.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:18:08.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:18:32.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:18:15.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:18:20.
++                                                                                                  
++ Time: 2 of 50 seconds.  Estimated final completion at 15:18:09.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7402      759664        5526        6327      758714
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7486      759579        5526        6328      758629
+Swap:             0           0           0
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:17:12.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:16:50.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:16:50.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:16:55.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:17:22.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:16:59.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:17:59.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:18:06.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:18:13.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:18:17.
++                                                                                                  
++ Time: 3 of 50 seconds.  Estimated final completion at 15:18:29.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7569      759496        5526        6327      758547
+Swap:             0           0           0
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:16:45.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:03.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:06.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:10.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:24.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:01.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:18:04.
++                                                                                                  
++ Time: 4 of 50 seconds.  Estimated final completion at 15:17:59.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7661      759526        5526        6207      758455
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7737      759555        5526        6101      758383
+Swap:             0           0           0
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:20.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:14.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:10.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:08.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:06.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:28.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:09.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:12.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:07.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 5 of 50 seconds.  Estimated final completion at 15:17:50.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7808      759524        5526        6061      758309
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7880      759593        5526        5920      758238
+Swap:             0           0           0
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:12.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:09.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:08.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:02.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:24.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:26.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:39.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:28.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 6 of 50 seconds.  Estimated final completion at 15:17:41.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        7960      759513        5526        5920      758158
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8041      759432        5526        5920      758078
+Swap:             0           0           0
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:16:58.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:17:01.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:17:23.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:17:14.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:17:23.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:18:17.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:18:05.
++                                                                                                  
++ Time: 7 of 50 seconds.  Estimated final completion at 15:17:46.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8127      759352        5526        5914      757992
+Swap:             0           0           0
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:16:58.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:17:08.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:17:20.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:17:12.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:17:48.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8209      759270        5526        5914      757910
+Swap:             0           0           0
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:18:14.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:18:06.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:18:26.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:18:02.
++                                                                                                  
++ Time: 8 of 50 seconds.  Estimated final completion at 15:18:11.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8288      759191        5526        5914      757830
+Swap:             0           0           0
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:17:04.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:17:26.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:17:03.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:18:09.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:18:13.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:18:01.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:18:20.
++                                                                                                  
++ Time: 9 of 50 seconds.  Estimated final completion at 15:17:55.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8367      759111        5526        5914      757751
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8450      759029        5526        5914      757668
+Swap:             0           0           0
+Generator speed:  543.8 RPM, Pitch angle:   0.0 deg, Power:  2197.6 kW, Est. wind Speed:   5.6 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:16:55.
+Generator speed:  625.5 RPM, Pitch angle:   0.0 deg, Power:  3413.5 kW, Est. wind Speed:   6.4 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:17:46.
+Generator speed:  459.4 RPM, Pitch angle:   0.0 deg, Power:  1297.4 kW, Est. wind Speed:   4.7 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:17:19.
+Generator speed:  703.2 RPM, Pitch angle:   0.6 deg, Power:  4531.8 kW, Est. wind Speed:   7.1 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:17:30.
+Generator speed:  724.9 RPM, Pitch angle:   2.5 deg, Power:  3696.9 kW, Est. wind Speed:   8.0 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:17:35.
+Generator speed:  730.6 RPM, Pitch angle:   6.4 deg, Power:  4969.2 kW, Est. wind Speed:  10.0 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:17:58.
+Generator speed:  726.9 RPM, Pitch angle:   3.8 deg, Power:  4958.5 kW, Est. wind Speed:   8.8 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:17:52.
+Generator speed:  730.4 RPM, Pitch angle:   9.6 deg, Power:  4912.0 kW, Est. wind Speed:  11.4 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:18:26.
+Generator speed:  788.2 RPM, Pitch angle:  18.8 deg, Power:  5221.6 kW, Est. wind Speed:  15.2 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:17:59.
+Generator speed:  764.6 RPM, Pitch angle:  16.8 deg, Power:  5072.6 kW, Est. wind Speed:  13.9 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:17:47.
+Generator speed:  744.8 RPM, Pitch angle:  13.7 deg, Power:  4960.2 kW, Est. wind Speed:  12.6 m/s
++                                                                                                  
++ Time: 10 of 50 seconds.  Estimated final completion at 15:18:25.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8534      758947        5526        5913      757585
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8626      758855        5526        5912      757493
+Swap:             0           0           0
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:17:13.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:17:10.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:17:20.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:18:02.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:17:20.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:17:45.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:18:07.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:17:56.
++                                                                                                  
++ Time: 11 of 50 seconds.  Estimated final completion at 15:18:19.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8678      758807        5526        5908      757440
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8720      758765        5526        5908      757398
+Swap:             0           0           0
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:32:25.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:32:38.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:32:54.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:32:28.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:33:31.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:32:51.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8804      758680        5526        5908      757314
+Swap:             0           0           0
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:32:53.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:33:02.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:33:34.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:33:49.
++                                                                                                  
++ Time: 12 of 50 seconds.  Estimated final completion at 15:33:06.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8888      758597        5526        5908      757230
+Swap:             0           0           0
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:17:31.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:17:18.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:17:39.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:18:19.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:18:37.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:18:08.
++                                                                                                  
++ Time: 13 of 50 seconds.  Estimated final completion at 15:18:38.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        8974      758511        5526        5908      757145
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9056      758428        5526        5909      757063
+Swap:             0           0           0
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:42.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:37.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:34.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:24.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:34.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:18:10.
++                                                                                                  
++ Time: 14 of 50 seconds.  Estimated final completion at 15:17:43.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9142      758342        5526        5909      756976
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9227      758258        5526        5908      756892
+Swap:             0           0           0
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:17:26.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:17:42.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:17:57.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:18:13.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:18:12.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:17:58.
++                                                                                                  
++ Time: 15 of 50 seconds.  Estimated final completion at 15:18:41.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9315      758171        5526        5906      756803
+Swap:             0           0           0
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:17:26.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:17:44.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9397      758090        5526        5906      756722
+Swap:             0           0           0
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:18:14.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:18:04.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:18:09.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:18:23.
++                                                                                                  
++ Time: 16 of 50 seconds.  Estimated final completion at 15:18:26.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9483      758002        5526        5908      756636
+Swap:             0           0           0
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:17:23.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:17:57.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:17:58.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:18:01.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:18:17.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9565      757920        5526        5908      756553
+Swap:             0           0           0
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:17:58.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:18:09.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:18:26.
++                                                                                                  
++ Time: 17 of 50 seconds.  Estimated final completion at 15:18:44.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9648      757837        5526        5908      756470
+Swap:             0           0           0
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:17:16.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:17:39.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:17:42.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:18:07.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:18:02.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:18:04.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:18:24.
++                                                                                                  
++ Time: 18 of 50 seconds.  Estimated final completion at 15:18:19.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9732      757753        5526        5908      756387
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9821      757664        5526        5908      756298
+Swap:             0           0           0
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:18.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:39.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:32.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:44.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:56.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:18:03.
++                                                                                                  
++ Time: 19 of 50 seconds.  Estimated final completion at 15:17:48.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9905      757580        5526        5908      756214
+Swap:             0           0           0
+Generator speed:  523.5 RPM, Pitch angle:   0.0 deg, Power:  1712.7 kW, Est. wind Speed:   5.6 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:29.
+Generator speed:  442.9 RPM, Pitch angle:   0.0 deg, Power:  1075.3 kW, Est. wind Speed:   4.7 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:33.
+Generator speed:  602.1 RPM, Pitch angle:   0.0 deg, Power:  2512.8 kW, Est. wind Speed:   6.5 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:35.
+Generator speed:  671.8 RPM, Pitch angle:   0.0 deg, Power:  3601.1 kW, Est. wind Speed:   7.3 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:38.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9988      757497        5526        5908      756130
+Swap:             0           0           0
+Generator speed:  730.8 RPM, Pitch angle:   6.5 deg, Power:  5000.7 kW, Est. wind Speed:   9.9 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:44.
+Generator speed:  733.7 RPM, Pitch angle:   2.8 deg, Power:  4963.4 kW, Est. wind Speed:   8.1 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:59.
+Generator speed:  730.3 RPM, Pitch angle:   4.0 deg, Power:  4996.9 kW, Est. wind Speed:   9.0 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:40.
+Generator speed:  731.3 RPM, Pitch angle:   8.5 deg, Power:  5006.8 kW, Est. wind Speed:  11.0 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:53.
+Generator speed:  727.2 RPM, Pitch angle:  13.8 deg, Power:  5005.2 kW, Est. wind Speed:  14.2 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:53.
+Generator speed:  730.9 RPM, Pitch angle:  12.2 deg, Power:  5016.8 kW, Est. wind Speed:  13.2 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:45.
+Generator speed:  732.6 RPM, Pitch angle:  10.5 deg, Power:  5017.1 kW, Est. wind Speed:  12.2 m/s
++                                                                                                  
++ Time: 20 of 50 seconds.  Estimated final completion at 15:17:56.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10074      757411        5526        5908      756045
+Swap:             0           0           0
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:20.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:34.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:45.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:58.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10156      757330        5526        5908      755963
+Swap:             0           0           0
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:31.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:58.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 21 of 50 seconds.  Estimated final completion at 15:18:03.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10244      757242        5526        5908      755875
+Swap:             0           0           0
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:33.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:23.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:26.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:42.
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:17:51.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10331      757155        5526        5907      755788
+Swap:             0           0           0
++                                                                                                  
++ Time: 22 of 50 seconds.  Estimated final completion at 15:18:04.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10420      757066        5526        5907      755699
+Swap:             0           0           0
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:39.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:44.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 23 of 50 seconds.  Estimated final completion at 15:17:59.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10503      756984        5526        5906      755616
+Swap:             0           0           0
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:17:43.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10584      756902        5526        5906      755534
+Swap:             0           0           0
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:17:38.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:17:31.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:18:08.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:18:11.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:18:01.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:18:21.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:18:01.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:18:06.
++                                                                                                  
++ Time: 24 of 50 seconds.  Estimated final completion at 15:18:11.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10674      756810        5527        5908      755443
+Swap:             0           0           0
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:27.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:33.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:56.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10758      756726        5527        5908      755359
+Swap:             0           0           0
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:18:01.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:38.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 25 of 50 seconds.  Estimated final completion at 15:17:59.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10836      756648        5527        5909      755282
+Swap:             0           0           0
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:28.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:38.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:52.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       10923      756562        5527        5909      755195
+Swap:             0           0           0
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 26 of 50 seconds.  Estimated final completion at 15:17:43.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11009      756476        5527        5908      755109
+Swap:             0           0           0
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:35.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:34.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:18:02.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:31.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:57.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 27 of 50 seconds.  Estimated final completion at 15:17:55.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11093      756392        5527        5908      755024
+Swap:             0           0           0
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:25.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11176      756309        5527        5908      754942
+Swap:             0           0           0
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:35.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:37.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:18:01.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 28 of 50 seconds.  Estimated final completion at 15:18:02.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11263      756222        5527        5909      754855
+Swap:             0           0           0
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:38.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:34.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:53.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11346      756138        5527        5909      754771
+Swap:             0           0           0
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:44.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:18:01.
++                                                                                                  
++ Time: 29 of 50 seconds.  Estimated final completion at 15:17:46.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11432      756052        5527        5909      754685
+Swap:             0           0           0
+Generator speed:  532.8 RPM, Pitch angle:   0.0 deg, Power:  1488.5 kW, Est. wind Speed:   5.7 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:27.
+Generator speed:  445.5 RPM, Pitch angle:   0.0 deg, Power:   889.6 kW, Est. wind Speed:   4.8 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:37.
+Generator speed:  698.8 RPM, Pitch angle:   0.8 deg, Power:  3215.1 kW, Est. wind Speed:   7.5 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:28.
+Generator speed:  618.7 RPM, Pitch angle:   0.0 deg, Power:  2332.6 kW, Est. wind Speed:   6.6 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:43.
+Generator speed:  731.4 RPM, Pitch angle:   6.6 deg, Power:  5002.7 kW, Est. wind Speed:   9.8 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:42.
+Generator speed:  731.3 RPM, Pitch angle:   4.1 deg, Power:  4999.7 kW, Est. wind Speed:   8.9 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:47.
+Generator speed:  730.4 RPM, Pitch angle:   2.3 deg, Power:  4452.6 kW, Est. wind Speed:   8.1 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:50.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11522      755963        5527        5909      754596
+Swap:             0           0           0
+Generator speed:  731.4 RPM, Pitch angle:   8.6 deg, Power:  5007.9 kW, Est. wind Speed:  10.8 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:43.
+Generator speed:  731.3 RPM, Pitch angle:  13.9 deg, Power:  5012.8 kW, Est. wind Speed:  13.8 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:46.
+Generator speed:  731.6 RPM, Pitch angle:  12.3 deg, Power:  5011.9 kW, Est. wind Speed:  12.8 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:45.
+Generator speed:  731.7 RPM, Pitch angle:  10.5 deg, Power:  5010.5 kW, Est. wind Speed:  11.8 m/s
++                                                                                                  
++ Time: 30 of 50 seconds.  Estimated final completion at 15:17:54.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11606      755878        5527        5908      754511
+Swap:             0           0           0
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:33.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:45.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:37.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:58.
++                                                                                                  
++ Time: 31 of 50 seconds.  Estimated final completion at 15:17:55.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11695      755790        5527        5908      754422
+Swap:             0           0           0
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:24.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11773      755712        5527        5908      754345
+Swap:             0           0           0
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:37.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:45.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:59.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:58.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:18:06.
++                                                                                                  
++ Time: 32 of 50 seconds.  Estimated final completion at 15:18:15.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11858      755627        5527        5908      754259
+Swap:             0           0           0
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:26.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:31.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       11944      755540        5527        5908      754173
+Swap:             0           0           0
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 33 of 50 seconds.  Estimated final completion at 15:18:00.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12029      755456        5527        5908      754089
+Swap:             0           0           0
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:27.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:33.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:37.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:49.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12115      755367        5527        5911      754003
+Swap:             0           0           0
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:42.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:56.
++                                                                                                  
++ Time: 34 of 50 seconds.  Estimated final completion at 15:17:59.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12201      755281        5527        5911      753917
+Swap:             0           0           0
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:22.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:33.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:39.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:51.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12287      755195        5527        5911      753831
+Swap:             0           0           0
++                                                                                                  
++ Time: 35 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:24.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12372      755109        5527        5911      753745
+Swap:             0           0           0
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:37.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:44.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:45.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 36 of 50 seconds.  Estimated final completion at 15:17:52.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12458      755024        5527        5911      753660
+Swap:             0           0           0
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:22.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:36.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12541      754941        5527        5911      753576
+Swap:             0           0           0
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:32.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 37 of 50 seconds.  Estimated final completion at 15:17:53.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12627      754856        5527        5911      753491
+Swap:             0           0           0
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:26.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:37.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:31.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:42.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12711      754770        5527        5912      753407
+Swap:             0           0           0
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:45.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:18:02.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 38 of 50 seconds.  Estimated final completion at 15:17:59.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12794      754687        5527        5912      753323
+Swap:             0           0           0
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:25.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:40.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:30.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:39.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:47.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12880      754601        5527        5912      753237
+Swap:             0           0           0
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 39 of 50 seconds.  Estimated final completion at 15:17:58.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       12963      754521        5527        5910      753155
+Swap:             0           0           0
+Generator speed:  541.5 RPM, Pitch angle:   0.0 deg, Power:  1694.7 kW, Est. wind Speed:   5.7 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:27.
+Generator speed:  453.7 RPM, Pitch angle:   0.0 deg, Power:   969.9 kW, Est. wind Speed:   4.8 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:38.
+Generator speed:  702.3 RPM, Pitch angle:   0.6 deg, Power:  3913.5 kW, Est. wind Speed:   7.3 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:33.
+Generator speed:  624.8 RPM, Pitch angle:   0.0 deg, Power:  2702.4 kW, Est. wind Speed:   6.6 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:42.
+Generator speed:  731.8 RPM, Pitch angle:   6.7 deg, Power:  5001.3 kW, Est. wind Speed:   9.8 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:51.
+Generator speed:  731.7 RPM, Pitch angle:   4.2 deg, Power:  5000.1 kW, Est. wind Speed:   8.9 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:52.
+Generator speed:  731.8 RPM, Pitch angle:   8.7 deg, Power:  5003.5 kW, Est. wind Speed:  10.8 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:48.
+Generator speed:  731.9 RPM, Pitch angle:   2.4 deg, Power:  4569.2 kW, Est. wind Speed:   8.1 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:59.
+Generator speed:  732.1 RPM, Pitch angle:  12.3 deg, Power:  5004.2 kW, Est. wind Speed:  12.8 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:51.
+Generator speed:  732.1 RPM, Pitch angle:  13.9 deg, Power:  5004.1 kW, Est. wind Speed:  13.8 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:17:55.
+Generator speed:  732.0 RPM, Pitch angle:  10.6 deg, Power:  5004.1 kW, Est. wind Speed:  11.8 m/s
++                                                                                                  
++ Time: 40 of 50 seconds.  Estimated final completion at 15:18:02.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13048      754435        5527        5910      753069
+Swap:             0           0           0
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:28.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13136      754348        5527        5910      752982
+Swap:             0           0           0
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:33.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:44.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:52.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:55.
++                                                                                                  
++ Time: 41 of 50 seconds.  Estimated final completion at 15:17:54.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13217      754266        5527        5910      752900
+Swap:             0           0           0
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:38.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:45.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13304      754179        5527        5910      752814
+Swap:             0           0           0
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:45.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 42 of 50 seconds.  Estimated final completion at 15:17:53.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13389      754094        5527        5910      752729
+Swap:             0           0           0
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:29.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:35.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:34.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:42.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:50.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13475      754008        5527        5909      752642
+Swap:             0           0           0
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 43 of 50 seconds.  Estimated final completion at 15:17:57.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13556      753927        5527        5909      752561
+Swap:             0           0           0
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:28.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:41.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 44 of 50 seconds.  Estimated final completion at 15:17:57.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13645      753839        5527        5909      752473
+Swap:             0           0           0
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:27.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13731      753754        5527        5908      752386
+Swap:             0           0           0
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:46.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:54.
++                                                                                                  
++ Time: 45 of 50 seconds.  Estimated final completion at 15:17:57.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13817      753668        5527        5908      752300
+Swap:             0           0           0
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:28.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:39.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13901      753584        5527        5908      752217
+Swap:             0           0           0
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 46 of 50 seconds.  Estimated final completion at 15:17:57.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       13984      753501        5527        5908      752133
+Swap:             0           0           0
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:28.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:37.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:42.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:47.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       14070      753415        5527        5908      752048
+Swap:             0           0           0
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 47 of 50 seconds.  Estimated final completion at 15:17:56.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       14152      753332        5527        5908      751966
+Swap:             0           0           0
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:27.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:35.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:54.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       14242      753243        5527        5908      751875
+Swap:             0           0           0
++                                                                                                  
++ Time: 48 of 50 seconds.  Estimated final completion at 15:17:58.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:27.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       14331      753154        5527        5908      751787
+Swap:             0           0           0
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:44.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:48.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
++ Time: 49 of 50 seconds.  Estimated final completion at 15:17:56.
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       14417      753068        5527        5908      751701
+Swap:             0           0           0
+Generator speed:  538.4 RPM, Pitch angle:   0.0 deg, Power:  1762.6 kW, Est. wind Speed:   5.7 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:27.
++                                                                                                  
+
+  Total Real Time:       44.525 minutes
+  Total CPU Time:        43.919 minutes
+  Simulation CPU Time:   43.876 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.89930E-02
+Generator speed:  454.7 RPM, Pitch angle:   0.0 deg, Power:  1042.3 kW, Est. wind Speed:   4.8 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:35.
++                                                                                                  
+
+  Total Real Time:       44.638 minutes
+  Total CPU Time:        44.034 minutes
+  Simulation CPU Time:   43.988 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.89445E-02
+Generator speed:  688.4 RPM, Pitch angle:   0.2 deg, Power:  3768.4 kW, Est. wind Speed:   7.3 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:36.
++                                                                                                  
+
+  Total Real Time:       44.65 minutes
+  Total CPU Time:        44.072 minutes
+  Simulation CPU Time:   44.021 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.89303E-02
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       18182      749286        5527        5925      747936
+Swap:             0           0           0
+Generator speed:  618.2 RPM, Pitch angle:   0.0 deg, Power:  2649.7 kW, Est. wind Speed:   6.5 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:43.
++                                                                                                  
+
+  Total Real Time:       44.774 minutes
+  Total CPU Time:        43.973 minutes
+  Simulation CPU Time:   43.935 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.89676E-02
+Generator speed:  731.9 RPM, Pitch angle:   6.7 deg, Power:  5003.1 kW, Est. wind Speed:   9.8 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:47.
++                                                                                                  
+
+  Total Real Time:       44.841 minutes
+  Total CPU Time:        44.269 minutes
+  Simulation CPU Time:   44.226 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.88425E-02
+Generator speed:  732.0 RPM, Pitch angle:   8.8 deg, Power:  5003.4 kW, Est. wind Speed:  10.8 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:49.
++                                                                                                  
+
+  Total Real Time:       44.858 minutes
+  Total CPU Time:        44.264 minutes
+  Simulation CPU Time:   44.226 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.88426E-02
+Generator speed:  731.8 RPM, Pitch angle:   4.2 deg, Power:  5002.6 kW, Est. wind Speed:   8.9 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
+
+  Total Real Time:       44.879 minutes
+  Total CPU Time:        44.304 minutes
+  Simulation CPU Time:   44.26 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.88280E-02
+Generator speed:  732.3 RPM, Pitch angle:  12.3 deg, Power:  5003.2 kW, Est. wind Speed:  12.8 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:50.
++                                                                                                  
+
+  Total Real Time:       44.89 minutes
+  Total CPU Time:        44.293 minutes
+  Simulation CPU Time:   44.255 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.88303E-02
+Generator speed:  731.8 RPM, Pitch angle:   2.3 deg, Power:  4464.5 kW, Est. wind Speed:   8.1 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:51.
++                                                                                                  
+
+  Total Real Time:       44.904 minutes
+  Total CPU Time:        44.114 minutes
+  Simulation CPU Time:   44.077 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.89064E-02
+Generator speed:  732.3 RPM, Pitch angle:  13.9 deg, Power:  5002.9 kW, Est. wind Speed:  13.8 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:53.
++                                                                                                  
+
+  Total Real Time:       44.937 minutes
+  Total CPU Time:        44.359 minutes
+  Simulation CPU Time:   44.316 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.88042E-02
+Generator speed:  732.2 RPM, Pitch angle:  10.6 deg, Power:  5003.4 kW, Est. wind Speed:  11.8 m/s
++                                                                                                  
++ Time: 50 of 50 seconds.  Estimated final completion at 15:17:57.
++                                                                                                  
+
+  Total Real Time:       45.002 minutes
+  Total CPU Time:        44.423 minutes
+  Simulation CPU Time:   44.381 minutes
+  Simulated Time:        0.83333 minutes
+  Time Ratio (Sim/CPU):  1.87766E-02
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394       14763      752705        5527        5925      751355
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        9436      758040        5527        5917      756682
+Swap:             0           0           0
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_01_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_01_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_00_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_00_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_03_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_03_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_09_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_09_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_10_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_10_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_08_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_08_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_07_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_07_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_04_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_04_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_06_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_06_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_02_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_02_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+Loading rotor performace data from text file: /lustre/eaglefs/projects/bar/mchetan/speedTest/BAR_Designs/BAR_URC/of-olaf/BAR_URC_out_0_Cp_Ct_Cq.txt
+Writing rotor performance text file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_05_Cp_Ct_Cq.txt
+Writing new controller parameter file parameter file: /projects/bar/mchetan/projects/downwind/ad15-bd/outputs/urc/bar-urc-5_05_DISCON.IN.
+----------
+"DEFAULT" <class 'str'>
+
+real	47m57.307s
+user	494m32.559s
+sys	0m39.602s
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6238      761177        5518        5979      759888
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6237      761178        5518        5979      759889
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6237      761177        5518        5979      759889
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6236      761178        5518        5979      759890
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6235      761179        5518        5979      759891
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6235      761180        5518        5978      759891
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6234      761180        5518        5978      759892
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6234      761191        5518        5968      759892
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6234      761200        5518        5959      759892
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6233      761201        5518        5958      759893
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6231      761248        5518        5914      759895
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6227      761281        5518        5886      759900
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6225      761282        5519        5886      759901
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6224      761283        5519        5886      759902
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6223      761284        5519        5886      759903
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6223      761284        5519        5886      759903
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6223      761304        5519        5866      759904
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6222      761305        5519        5866      759904
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6224      761303        5519        5866      759902
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6223      761304        5519        5866      759903
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6222      761305        5519        5866      759904
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6222      761305        5519        5866      759904
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6220      761307        5519        5866      759906
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6219      761308        5519        5866      759907
+Swap:             0           0           0
+
+              total        used        free      shared  buff/cache   available
+Mem:         773394        6219      761308        5519        5866      759908
+Swap:             0           0           0
+slurmstepd: error: *** JOB 9701833 ON r103u21 CANCELLED AT 2022-07-18T15:31:21 DUE TO TIME LIMIT ***
